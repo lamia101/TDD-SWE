@@ -20,14 +20,8 @@ $dokka.location:com.devdroid.kikinbo.view/ViewProduct/ViewProduct/#/PointingToDe
 $dokka.location:com.devdroid.kikinbo.viewmodel////PointingToDeclaration/app/com.devdroid.kikinbo.viewmodel/index.html
 $dokka.location:com.devdroid.kikinbo.viewmodel/ProductViewModel///PointingToDeclaration/app/com.devdroid.kikinbo.viewmodel/-product-view-model/index.html
 $dokka.location:com.devdroid.kikinbo.viewmodel/ProductViewModel/ProductViewModel/#/PointingToDeclaration/app/com.devdroid.kikinbo.viewmodel/-product-view-model/-product-view-model.html
+$dokka.location:com.devdroid.kikinbo.viewmodel/ProductViewModel/databaseRef/#/PointingToDeclaration/app/com.devdroid.kikinbo.viewmodel/-product-view-model/database-ref.html
 $dokka.location:com.devdroid.kikinbo.viewmodel/ProductViewModel/fetchProductData/#kotlin.String#kotlin.Function1[com.devdroid.kikinbo.model.ProductDataModel?,kotlin.Unit]/PointingToDeclaration/app/com.devdroid.kikinbo.viewmodel/-product-view-model/fetch-product-data.html
-$dokka.location:com.devdroid.kikinbo////PointingToDeclaration/app/com.devdroid.kikinbo/index.html
-$dokka.location:com.devdroid.kikinbo/ProductDisplayHelper///PointingToDeclaration/app/com.devdroid.kikinbo/-product-display-helper/index.html
-$dokka.location:com.devdroid.kikinbo/ProductDisplayHelper/ProductDisplayHelper/#/PointingToDeclaration/app/com.devdroid.kikinbo/-product-display-helper/-product-display-helper.html
-$dokka.location:com.devdroid.kikinbo/ProductDisplayHelper/displayProductDetails/#com.devdroid.kikinbo.model.ProductDataModel#android.widget.TextView#android.widget.TextView#android.widget.TextView#android.widget.TextView#android.widget.TextView/PointingToDeclaration/app/com.devdroid.kikinbo/-product-display-helper/display-product-details.html
-$dokka.location:com.devdroid.kikinbo/SearchProduct///PointingToDeclaration/app/com.devdroid.kikinbo/-search-product/index.html
-$dokka.location:com.devdroid.kikinbo/SearchProduct/SearchProduct/#/PointingToDeclaration/app/com.devdroid.kikinbo/-search-product/-search-product.html
-com.devdroid.kikinbo
 com.devdroid.kikinbo.model
 com.devdroid.kikinbo.view
 com.devdroid.kikinbo.viewmodel

@@ -45,7 +45,7 @@ class ProductViewModelTest {
     }
 
     @Test
-    fun `fetchProductData - product found`() {
+    fun `fetchProductData_product found`() {
         // Arrange
         val productId = "Mouseid"
         val expectedProduct = ProductDataModel(productId = productId, productName = "Mouse")
@@ -69,7 +69,7 @@ class ProductViewModelTest {
     }
 
     @Test
-    fun `fetchProductData - product not found`() {
+    fun `fetchProductData_product_not_found`() {
         // Arrange
         val productId = "nonExistentProductId"
         `when`(mockDataSnapshot.exists()).thenReturn(false)
@@ -90,7 +90,7 @@ class ProductViewModelTest {
     }
 
     @Test
-    fun `fetchProductData - database error`() {
+    fun `fetchProductData_database error`() {
         // Arrange
         val productId = "errorProductId"
         doAnswer {

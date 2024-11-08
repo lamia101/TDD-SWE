@@ -2,12 +2,14 @@ package com.devdroid.kikinbo.view
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.devdroid.kikinbo.R
+import com.devdroid.kikinbo.viewmodel.PushOrderInfo
 import com.google.firebase.database.FirebaseDatabase
 
 /**
@@ -65,10 +67,16 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        val btnCancelOrderid:Button=findViewById(R.id.btnCancelOrderid)
+        btnCancelOrderid.setOnClickListener{
+            val i=Intent(this,CancelOrderView::class.java)
+            startActivity(i)
+        }
         // Uncomment the following line to push product data to Firebase.
         // pushProductData()
+//        val pushOrderdata=PushOrderInfo()
+//        pushOrderdata.fPushOrderInfo()
     }
-
     /**
      * Pushes sample product data to the Firebase database.
      *

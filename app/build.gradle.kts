@@ -55,15 +55,28 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.auth)
     implementation(libs.firebase.database)
-    testImplementation(libs.junit)
-    testImplementation(libs.junit.jupiter)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+
     implementation("org.jetbrains.dokka:dokka-core:1.9.0")
-    // JUnit 5
-    testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
+    implementation(libs.firebase.firestore.ktx)
 
     // Mockito for mocking
-    testImplementation ("org.mockito:mockito-core:3.6.28")
-    testImplementation ("org.mockito:mockito-inline:3.6.28")
+    testImplementation ("org.mockito:mockito-core:5.5.0")
+    testImplementation ("org.mockito:mockito-inline:4.5.1")
+
+    // JUnit 5 dependency
+    testImplementation ("org.junit.jupiter:junit-jupiter-api:5.9.0")
+    testImplementation ("org.junit.jupiter:junit-jupiter-engine:5.9.0")
+
+// Mockito dependency
+    testImplementation ("org.mockito:mockito-core:4.3.1")
+    // For Android-specific unit testing
+    testImplementation ("androidx.arch.core:core-testing:2.1.0")
+    // For Mocking Firebase Database
+    testImplementation ("org.mockito:mockito-inline:4.3.1")
+    testImplementation(libs.junit.jupiter)
+    // Mockito for Kotlin
+    testImplementation ("org.mockito.kotlin:mockito-kotlin:5.5.0")
+    // Mockito for Java
+    testImplementation ("org.mockito:mockito-core:5.5.0")
+    androidTestImplementation(libs.junit.jupiter)
 }
